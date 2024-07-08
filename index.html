@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Navbar Giris-->
+    <div class="navbar">
+        <div class="logo">
+            <h1>Kripto Dunyasi</h1>
+        </div>
+        <div id="kategoriler">Coinler
+            <div class="coins-menu">
+                <ul>
+                    <hr>
+                    <li id="bitcoin-link">Bitcoin</li>
+                    <hr>
+                    <li id="etherium-link">Etherium</li>
+                    <hr>
+                    <li id="doge-link">Doge Coin</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar Bitis-->
+
+    <!--Container Giris-->
+    <div class="container">
+        <img src="BTC.png" alt="Bitcoin Image" height="200" width="200" id="image">
+
+        <div class="price-info">
+            <li>Son Guncellenme Tarihi : <span id="lastUpdate"></span></li>
+            <li>Tum zamanların en yuksegi : <span id="ath"></span><span>$</span></li>
+            <li>Guncel Fiyati : <span id="now-price"></span> <span>$</span></li>
+            <li>Son 24 saatin en dusugu : <span id="topof24"></span><span>$</span></li>
+            <li>Son 24 saatin en yuksegi : <span id="lowerof24"></span><span>$</span></li>
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
